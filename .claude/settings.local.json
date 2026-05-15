@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:\\\\Users\\\\ahmad\\\\IdeaProjects\\\\roblox-mcp\\\\src\\\\roblox_mcp\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\ahmad\\\\IdeaProjects\\\\roblox-mcp\\\\studio-plugin\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "WebSearch"
+    ]
+  }
+}

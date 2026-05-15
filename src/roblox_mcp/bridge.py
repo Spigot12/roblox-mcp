@@ -113,3 +113,8 @@ async def run_bridge():
     logger.info(f"MCP-facing endpoint on http://localhost:{MCP_FACING_PORT}")
 
     await asyncio.Event().wait()
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    asyncio.run(run_bridge())

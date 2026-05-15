@@ -220,5 +220,10 @@ def main():
 
 
 async def _main():
-    async with stdio_server() as (read_stream, write_stream):
-        await app.run(read_stream, write_stream, app.create_initialization_options())
+    from .bridge import run_bridge
+    bridge_task = asyncio.create_task(run_bridge())
+    try:
+        async with stdio_server() as (read_stream, write_stream):
+            await app.run(read_stream, write_stream, app.create_initialization_options())
+    finally:
+        bridge_task.cancel()
