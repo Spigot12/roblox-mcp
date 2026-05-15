@@ -6,7 +6,9 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(python3 *)",
+      "Bash(git commit -m 'Fix: add __main__.py so python -m roblox_mcp works *)"
     ]
   }
 }
