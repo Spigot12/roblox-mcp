@@ -8,7 +8,10 @@
       "Bash(git push *)",
       "WebSearch",
       "Bash(python3 *)",
-      "Bash(git commit -m 'Fix: add __main__.py so python -m roblox_mcp works *)"
+      "Bash(git commit -m 'Fix: add __main__.py so python -m roblox_mcp works *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.github.com)"
     ]
   }
 }
